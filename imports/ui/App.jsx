@@ -6,6 +6,7 @@ import { createContainer } from 'meteor/react-meteor-data';
 import { Recipes } from '../api/recipes.js';
 
 import AccountsUIWrapper from './AccountsUIWrapper.jsx';
+import Recipe from './Recipe.jsx';
 
 // App component - represents the whole app
 class App extends Component {
@@ -27,6 +28,7 @@ class App extends Component {
               </header>
 
               <div>
+                  <Recipe recipe={{recipe:'this is my recipe'}}/>
                 food goes here
               </div>
             </div>
