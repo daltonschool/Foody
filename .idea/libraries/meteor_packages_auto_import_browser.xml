@@ -48,6 +48,8 @@
         <item url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.11/web.browser/optimizer.js" />
         <item url="file://$USER_HOME$/.meteor/packages/srp/1.0.8/web.browser/srp.js" />
         <item url="file://$USER_HOME$/.meteor/packages/srp/1.0.8/web.browser/biginteger.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/dandv_jquery-rateit/1.0.22_2/web.browser/packages/dandv:jquery-rateit/rateit/src/rateit.css" />
+        <item url="file://$USER_HOME$/.meteor/packages/dandv_jquery-rateit/1.0.22_2/web.browser/packages/dandv:jquery-rateit.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-server/1.2.6/web.browser/livedata_server.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-server/1.2.6/web.browser/livedata_server_tests.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-server/1.2.6/web.browser/stream_server.js" />
@@ -405,6 +407,8 @@
       <root url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.11/web.browser/optimizer.js" />
       <root url="file://$USER_HOME$/.meteor/packages/srp/1.0.8/web.browser/srp.js" />
       <root url="file://$USER_HOME$/.meteor/packages/srp/1.0.8/web.browser/biginteger.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/dandv_jquery-rateit/1.0.22_2/web.browser/packages/dandv:jquery-rateit/rateit/src/rateit.css" />
+      <root url="file://$USER_HOME$/.meteor/packages/dandv_jquery-rateit/1.0.22_2/web.browser/packages/dandv:jquery-rateit.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-server/1.2.6/web.browser/livedata_server.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-server/1.2.6/web.browser/livedata_server_tests.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-server/1.2.6/web.browser/stream_server.js" />
