@@ -6,6 +6,7 @@ allow-deny@1.0.4
 autoupdate@1.2.9
 babel-compiler@6.6.4
 babel-runtime@0.1.8
+barbatus:stars-rating@1.1.1
 base64@1.0.8
 binary-heap@1.0.8
 blaze@2.1.7
@@ -17,6 +18,7 @@ caching-html-compiler@1.0.6
 callback-hook@1.0.8
 check@1.2.1
 coffeescript@1.0.17
+dandv:jquery-rateit@1.0.22_2
 ddp@1.2.5
 ddp-client@1.2.7
 ddp-common@1.2.5

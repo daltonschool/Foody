@@ -8,7 +8,7 @@ if (Meteor.isServer) {
     // This code only runs on the server
     // Only publish recipes that are public or belong to the current user
     Meteor.publish('recipes', function recipesPublication() {
-        return Recipes.find({});
+        return Recipes.find()
     });
 }
 

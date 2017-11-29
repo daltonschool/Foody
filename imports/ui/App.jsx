@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom';
 import { Meteor } from 'meteor/meteor';
 import { createContainer } from 'meteor/react-meteor-data';
 
-import { Recipes } from '../api/recipes.js';
+import Routes from './Routes.jsx';
+
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import AccountsUIWrapper from './AccountsUIWrapper.jsx';
 
@@ -19,16 +21,8 @@ class App extends Component {
 
     render() {
         return (
-            <div className="container">
-              <header>
-                <h1>Foody</h1>
-
-                <AccountsUIWrapper />
-              </header>
-
-              <div>
-                food goes here
-              </div>
+            <div className="wrapper">
+              <Routes currentUser={this.props.currentUser}/>
             </div>
         );
     }
@@ -39,7 +33,6 @@ App.propTypes = {
 };
 
 export default createContainer(() => {
-    Meteor.subscribe("recipes");
 
     return {
         currentUser: Meteor.user(),
