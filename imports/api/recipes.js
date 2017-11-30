@@ -2,6 +2,8 @@ import { Meteor } from 'meteor/meteor';
 import { Mongo } from 'meteor/mongo';
 import { check } from 'meteor/check';
 
+import fixture from './fixture.js';
+
 export const Recipes = new Mongo.Collection('recipes');
 
 if (Meteor.isServer) {
@@ -9,6 +11,12 @@ if (Meteor.isServer) {
     // Only publish recipes that are public or belong to the current user
     Meteor.publish('recipes', function recipesPublication() {
         return Recipes.find()
+    });
+
+    Meteor.startup(function () {
+        if(Recipes.find({}).fetch().length == 0) {
+            Recipes.insert(fixture);
+        }
     });
 }
 

@@ -11,7 +11,7 @@ export default class Recipe extends Component {
                 <h2>{this.props.recipe.author}</h2>
                 <h3>Ingredients:</h3>
                 <ol>
-                    {this.props.recipes.ingredients.map(function(ingredient, index){
+                    {this.props.recipe.ingredients.map(function(ingredient, index){
                         return <li key={ index }>{ingredient}</li>;
                     })}
                 </ol>
