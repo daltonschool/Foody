@@ -11,9 +11,9 @@ export default class Routes extends Component {
             <div>
                 <BrowserRouter>
                   <Switch>
-                    <Route exact path='/' component={Feed} {...this.props}/>
-                    <Route path='/user/:userid' component={Feed} {...this.props}/>
-                    <Route path='/recipe/:recipeid' component={Feed} {...this.props}/>
+                    <Route exact path='/' component={Feed}/>
+                    <Route path='/user/:userid' component={Feed}/>
+                    <Route path='/recipe/:recipeid' component={Feed}/>
                   </Switch>
                 </BrowserRouter>
             </div>

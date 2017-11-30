@@ -9,10 +9,10 @@ import { createContainer } from 'meteor/react-meteor-data';
 class Feed extends Component {
     render() {
         return (
-            <div className="feed">
-                <h1>
-                    Feed
-                </h1>
+            <div className="feed container">
+                {this.props.recipes.map(function(recipe, index){
+                    return <Recipe key={ index } recipe={ recipe }/>;
+                })}
             </div>
         );
     }

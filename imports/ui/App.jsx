@@ -22,7 +22,8 @@ class App extends Component {
     render() {
         return (
             <div className="wrapper">
-              <Routes currentUser={this.props.currentUser}/>
+                <AccountsUIWrapper/>
+                <Routes currentUser={this.props.currentUser}/>
             </div>
         );
     }
